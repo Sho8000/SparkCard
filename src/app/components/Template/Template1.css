@@ -1,0 +1,24 @@
+.template,#howItWorksSection,#feacherAndBenefitSection{
+  min-height: auto;
+  padding: 3rem 0 5rem;
+  scroll-margin-top: 62px; 
+}
+
+@media only screen and (max-width:1000px){
+  .Template3Container{
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width:775px){
+  .Template2Container,.Template4Container{
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width:650px){
+  .Template1Container{
+    justify-content: center;
+  }
+}

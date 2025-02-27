@@ -1,0 +1,15 @@
+#redyToStartYourFinancialJournySection{
+  min-height: auto;
+  padding: 3rem 0 5rem;
+  scroll-margin-top: 62px; 
+  background-color: rgb(135, 253, 135);
+}
+
+@media only screen and (max-width:650px){
+  .ReadySubText{
+    width: 90%;
+  }
+  .formContainer{
+    flex-direction: column;
+  }
+}

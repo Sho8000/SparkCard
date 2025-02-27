@@ -1,0 +1,29 @@
+li {
+  list-style: none;
+}
+.onlyTextList::before {
+  content: '';
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-image: url(../../../../public/CircleCheck.png);
+  background-size: cover;
+  transform: translateY(25%);
+}
+
+.pricingList::before {
+  content: '';
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-image: url(../../../../public/Check.png);
+  background-size: cover;
+  margin-left: 1rem;
+  transform: translateY(25%);
+}
+
+@media only screen and (max-width:1000px){
+  .OnlyTextListContainer{
+    padding: 0;
+  }
+}

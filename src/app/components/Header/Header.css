@@ -1,0 +1,23 @@
+#headerSection{
+  scroll-margin-top: 62px;
+}
+
+@media only screen and (max-width:768px){
+  .headerContainer{
+    width: 100%;
+  }
+  .mainTitle{
+    font-size: 36px;
+    min-width: auto;
+  }
+}
+
+@media only screen and (max-width:510px){
+  .mainTitle{
+    width: 100%;
+    font-size: 28px;
+  }
+  .subTitle{
+    width: auto;
+  }
+}
