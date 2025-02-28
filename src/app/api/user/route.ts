@@ -19,5 +19,7 @@ export async function POST(request: NextRequest) {
       message: "Post Added successfully",
       post: newUser,
     });
-  } catch (error) {}
+  } catch (error) {
+    console.log(error)
+  }
 }

@@ -1,6 +1,3 @@
-import Image from "next/image";
-import sample from "../../../../public/next.svg"
-
 interface PricingProp {
   title:string;
   titleDetail:string;

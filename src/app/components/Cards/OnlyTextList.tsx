@@ -1,6 +1,5 @@
 import Image, { StaticImageData } from "next/image";
 import "./CardStyle.css"
-import sample from "../../../../public/globe.svg"
 
 interface TextList {
   explain:string;

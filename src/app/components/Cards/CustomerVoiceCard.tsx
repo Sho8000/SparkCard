@@ -1,5 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-import sample from "../../../../public/next.svg"
 
 interface CustomerVoiceProps {
   img:StaticImageData;
