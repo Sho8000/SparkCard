@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "postinstall": "prisma generate",
+    "postinstall": "prisma generate",    "prisma:generate": "prisma generate",
+    "prisma:push": "prisma db push",
     "vercel-build": "prisma generate && prisma migrate deploy && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
